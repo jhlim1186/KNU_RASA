@@ -1,0 +1,78 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- thanks
+- deny
+- joke
+- name
+- subject
+- test
+- start
+- answer
+
+entities:
+- name
+- subject
+- answer
+
+slots:
+  name:
+    type: unfeaturized
+  subject:
+    type: unfeaturized
+  answer:
+    type: unfeaturized
+
+responses:
+  utter_name:
+  - text: 안녕하세요. 이름이 뭐에요?
+
+  utter_greet:
+  - text: '{name}님 반갑습니다.'
+
+  utter_goodbye:
+  - text: 다음에 또 얘기해요~!
+
+  utter_thanks:
+  - text: 감사합니다^^
+
+  utter_ready:
+  - text: 자 이제 시작할까요 ^^?
+  - text: 문제를 내도 괜찮을까요?
+  - text: 퀴즈를 시작해도 괜찮을까요?
+  - text: 이제 시작할게요 준비는 되셨나요?
+
+  utter_fallback:
+  - text: 무슨 뜻인지 모르겠어요...ㅠㅠ
+
+  utter_test:
+  - text: 어떤의 과목의 시험을 보고 싶으세요?
+
+  utter_select_subject:
+  - text: '{subject}과목을 선택했습니다 화이팅!'
+
+  utter_start:
+  - text: 좋아요 그럼 시작할까요? ㅎㅎ
+  - text: 자 그럼 파이팅! 
+  - text: 출발!
+  - text: 시작!
+  - text: 좋아요 이제부터 시작할게요 ㅎㅎ
+  - text: 시험 잘보시길 빌게요!
+  - text: 출발출발!
+
+actions:
+- utter_name
+- utter_thanks
+- utter_greet
+- utter_goodbye
+- utter_fallback
+- utter_test
+- utter_select_subject
+- Action_name
+- utter_start
+- utter_ready
+- Action_Quiz
+- Action_answer
