@@ -1,7 +1,7 @@
 import pandas as pd
 import random as rd
 
-quiz = pd.read_csv('C:/Users/riverame/Downloads/project/.rasa/quiz.csv',encoding='CP949')
+quiz = pd.read_csv('quiz.csv',encoding='CP949')
 quiz = quiz.dropna(axis=1)
 
 ## quiz_num : index 번호를 list 형태로 출력
