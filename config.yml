@@ -1,8 +1,9 @@
-language: en
+language: xx
+
 pipeline:
-  - name: WhitespaceTokenizer
-  - name: RegexFeaturizer
-  - name: LexicalSyntacticFeaturizer
+  - name: SpacyNLP
+  - name: SpacyTokenizer
+  - name: SpacyFeaturizer
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
@@ -12,16 +13,20 @@ pipeline:
     max_ngram: 4
   - name: DIETClassifier
     epochs: 100
+  - name: SpacyEntityExtractor
+    dimensions: ["PERSON"]
   - name: EntitySynonymMapper
   - name: ResponseSelector
     epochs: 100
+
 
 policies:
   - name: MemoizationPolicy
   - name: TEDPolicy
     max_history: 5
-    epochs: 100
+    epochs: 200
   - name: FallbackPolicy
-    nlu_threshold: 0.4
-    core_threshold: 0.3
-    fallback_action_name: utter_fallback
+    nlu_threshold: 0.7
+    core_threshold: 0.7
+    fallback_action_name: Action_wrong
+  - name: FormPolicy
