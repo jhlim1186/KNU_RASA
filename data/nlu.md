@@ -28,14 +28,12 @@
 - 방가
 - 반가워
 - 반갑습니다
-- 하이
 - 하이루
 - 헬로
 - Hi
 - Hello
 - 안녕하십니까
 - 안녕하신가요
-- 반갑습니다
 - 반가워요
 - 만나서 반가워요
 - 만나서 반갑습니다
@@ -64,36 +62,28 @@
 - 고마웠어
 
 ## intent:name
-- [철수](name) 입니다.
-- [영희](name) 에요
-- 저는 [민호](name) 입니다.
-- 내 이름은 [지홍](name) 야
-- 제 이름은 [동현](name) 입니다.
-- 저는 [재민](name) 에요
-- 이름 [재훈](name)
-- [민수](name)
+- [김철수](name) 입니다.
+- [김영희](name) 에요
+- 저는 [박민호](name) 입니다.
+- 내 이름은 [민지홍](name) 야
+- 제 이름은 [신동현](name) 입니다.
+- 저는 [유재민](name) 에요
+- 이름 [권재훈](name)
+- [박민수](name)
 - [김재석](name)
 - [임지훈](name)
 - 내 이름은 [지훈](name)이야.
-- 난 [민철](name)이야.
-- 나 [종호](name)야.
-- 전 [슬기](name)입니다.
+- 난 [정민철](name)이야.
+- 나 [전종호](name)야.
+- 전 [이슬기](name)입니다.
+- 난 [임지훈](name)이야
+- 내 이름은 [임지훈](name)
+- 내 이름은[임지훈](name)이야
 
 ## intent:subject
-- [과학](subject)시험을 보고 싶어
-- 오늘은 [영어](subject)를 볼까?
-- 시험과목은 [국어](subject)입니다.
-- [사회](subject)과목은 어때?
-- [수학](subject) 테스트를 보고 싶어
-- [수학](subject)
-- [국어](subject)
-- [과학](subject)
-- [영어](subject)
-- [사회](subject)
-- [사회](subject)과목을 볼래
-- [수학을](subject) 보고 싶어
-- [수학](subject)과목
-- [과학](subject)과목을 치르고 싶어
+- [넌센스](subject)
+- [수도](subject)
+- [사자성어](subject)
 
 ## intent:start
 - 시작하자
@@ -109,7 +99,7 @@
 - 시작해
 - 출발
 - 출발하자
-- 출발해 
+- 출발해
 - 시험보자
 - 시험보고 싶어
 - 퀴즈 주세요
@@ -175,5 +165,116 @@
 - 우리는 이루어질 수 없어요
 - 저리 가라 AI
 
-## intent: answer
-- 정답은 [정답]answer 입니다.
+## intent:answer
+- [가인박명](answer)
+- [다다익선](answer)
+- [마부작침](answer)
+- [교육지책](answer)
+- [발분망식](answer)
+- [구상유취](answer)
+- [각자무치](answer)
+- [오매불망](answer)
+- [섬섬옥수](answer)
+- [왈가왈부](answer)
+- [오월동주](answer)
+- [안하무인](answer)
+- [독야정청](answer)
+- [불철주야](answer)
+- [조변석개](answer)
+- [유언비어](answer)
+- [자가당착](answer)
+- [맥수지탄](answer)
+- [만시지탄](answer)
+- [일벌백계](answer)
+- [유언비어](answer)
+- [맥수지탄](answer)
+- [만시지탄](answer)
+- [일벌백계](answer)
+- [사필귀정](answer)
+- [타산지석](answer)
+- [초지일관](answer)
+- [배은망덕](answer)
+- [문전성시](answer)
+- [청출어람](answer)
+- [막상막하](answer)
+- [박장대소](answer)
+- [격세지감](answer)
+- [일장춘몽](answer)
+- [문전성시](answer)
+- [서울](answer)
+- [도쿄](answer)
+- [베이징](answer)
+- [로마](answer)
+- [런던](answer)
+- [마드리드](answer)
+- [리스본](answer)
+- [비엔나](answer)
+- [워싱턴](answer)
+- [오타와](answer)
+- [멕시코시티](answer)
+- [브라질리아](answer)
+- [부에노스아이레스](answer)
+- [뉴델리](answer)
+- [캔버라](answer)
+- [스톡홀름](answer)
+- [하노이](answer)
+- [쿠알라룸푸르](answer)
+- [자카르타](answer)
+- [파리](answer)
+- [베를린](answer)
+- [부다페스트]](answer)
+- [모스크바](answer)
+- [암스테르담](answer)
+- [아테네](answer)
+- [헬싱키](answer)
+- [코펜하겐](answer)
+- [키예프](answer)
+- [자그레브](answer)
+- [보고타](answer)
+- [더워](answer)
+- [아마존](answer)
+- [최저임금](answer)
+- [일본사람](answer)
+- [구명보트](answer)
+- [시험지](answer)
+- [칠레](answer)
+- [멕시코](answer)
+- [회오리](answer)
+- [돈가스](answer)
+- [고등어](answer)
+- [바나나킥](answer)
+- [삼성화재](answer)
+- [이불](answer)
+- [형편없는세상](answer)
+- [정삼각](answer)
+- [소방관](answer)
+- [무파마](answer)
+- [뼈다귀](answer)
+- [개인지도](answer)
+- [중고차](answer)
+- [무당벌레](answer)
+- [킹콩](answer)
+- [꼬꼬댁](answer)
+- [가야대](answer)
+- [대하드라마](answer)
+- [쉽구만](answer)
+- [분당](answer)
+- [천도복숭아](answer)
+- [카놀라유](answer)
+- [버섯](answer)
+- [몰라요](answer)
+- [모르겠어요](answer)
+- [몰라](answer)
+- [다음](answer)
+- [다음으로](answer)
+- [다음문제로](answer)
+- [다음문제](answer)
+- [다른문제](answer)
+- [다른거](answer)
+- [오답](answer)
+- [딴거](answer)
+- [아몰랑](answer)
+- [아몰라](answer)
+- [아 몰라](answer)
+- [아 몰랑](answer)
+- [몰랑](answer)

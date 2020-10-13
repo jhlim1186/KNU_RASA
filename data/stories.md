@@ -1,10 +1,9 @@
  ## story_quiz
-* greet 
- - utter_name
- * name
- - Action_name
- - utter_start
+* greet
+ - utter_first
+ - Action_warning
+ - utter_ready
 * start
+ - utter_select_subject
+* subject
  - Action_Quiz
-* answer
- - Action_answer
